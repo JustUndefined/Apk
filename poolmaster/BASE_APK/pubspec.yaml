@@ -1,0 +1,32 @@
+name: pool_master
+description: Pool Master - 8Ball Cheat Tool
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0                     # request ke API server
+  web_socket_channel: ^2.4.0       # komunikasi realtime overlay
+  shared_preferences: ^2.2.0       # simpan config lokal
+  flutter_overlay_window: ^0.3.0   # overlay di atas game
+  permission_handler: ^11.0.0      # minta permission overlay
+  provider: ^6.1.0                 # state management
+  google_fonts: ^6.1.0             # font custom
+  lottie: ^2.7.0                   # animasi loading
+  fluttertoast: ^9.0.0             # notif toast
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+

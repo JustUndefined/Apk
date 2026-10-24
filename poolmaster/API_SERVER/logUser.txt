@@ -1,0 +1,2 @@
+# Pool Master User Log
+# Format: [timestamp] username | event

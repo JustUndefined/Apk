@@ -1,0 +1,18 @@
+{
+  "keys": [
+    {
+      "key": "PM01-TEST-DEMO-0001",
+      "active": true,
+      "role": "user",
+      "expires": "2025-12-31",
+      "note": "Key demo untuk testing"
+    },
+    {
+      "key": "PM01-ADMN-MSTR-9999",
+      "active": true,
+      "role": "admin",
+      "expires": null,
+      "note": "Key admin tidak expired"
+    }
+  ]
+}
